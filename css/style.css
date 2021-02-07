@@ -1,0 +1,250 @@
+@charset "utf-8";
+body,
+html,
+.main_contents_wrapper {
+    width: 100%;
+    height: 100%;
+    background: 60%/cover no-repeat;
+}
+
+body,
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Microsoft Yahei', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    background-color: #fbfbfc;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.h1,
+h1 {
+    font-size: 2rem;
+}
+
+.h2,
+h2 {
+    font-size: 1.5rem;
+}
+
+.h3,
+h3 {
+    font-size: 1.25rem;
+}
+
+h2,
+h3 {
+    padding: 6px 0;
+    margin: 0;
+}
+
+.main_right_top_box {
+    position: absolute;
+    top: 2.6%;
+    right: 2%;
+    display: table;
+}
+
+.menu_wrapper {
+    width: 100%;
+    background: #1b458c;
+    transition: all 1s;
+}
+
+._fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu_box {
+    margin: 0;
+    padding: 12px 0;
+    height: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.menu_border {
+    padding: 0 6px;
+    color: #fff;
+}
+
+.menu_box li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.menu_box li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_box li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    content: '';
+    transition: transform .3s;
+    transform: scale(0, 1);
+    transform-origin: center top;
+}
+
+.menu_box li a:hover::after {
+    transform: scale(1, 1);
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 40px;
+    border-radius: 4px;
+    background-color: #ccc;
+}
+
+::selection {
+    color: #fff;
+    background: #b7eefe;
+}
+
+#index a,
+.btn {
+    margin: 2.5px 0 2.5px 5px;
+    padding: .375rem .75rem;
+    border: 1px solid #cbf1f5;
+    border-radius: 5px;
+    background: #fff;
+    color: #0b73d4;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#index a:hover,
+.btn:hover {
+    background: #6dd6f4;
+    color: #fff;
+}
+
+input {
+    padding: .375rem .75rem;
+    height: 2rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: rgba(255, 255, 255, .25);
+    background-clip: padding-box;
+    color: #495057;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#index a:focus,
+.btn:focus,
+input:focus {
+    outline: 0;
+    border-color: #80bdff;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #80bdff;
+}
+
+@font-face {
+    font-family: 'SourceHanSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/CappuccinoZ/font@main/SourceHanSansCN-Regular.woff2") format("woff2");
+}
+
+.post {
+    font-family: -apple-system, BlinkMacSystemFont, 'SourceHanSans', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    background: #fff;
+    padding: 8px;
+    width: 95%;
+    margin: 15px auto;
+    max-width: 750px;
+    min-height: 700px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/CappuccinoZ/font@main/MaterialIcons-Regular.woff2") format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-size: 24px;
+    vertical-align: middle;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+}
+
+.footer {
+    padding: 15px 0 30px;
+    background: #1a458b;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    word-wrap: break-word;
+    letter-spacing: 0.08em;
+}
+
+.container {
+    padding: 0 1rem;
+    margin: auto;
+}
+
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>五次方程计算器</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/css/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/complex.js"></script>
+    <style>
+        input {
+            display: block;
+            width: 90%
+        }
+        
+        p {
+            text-align: center;
+            background: rgba(255, 255, 255, .8);
+            border-radius: 8px
+        }
+        
+        body {
+            background-image: url("https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/64304942.png")
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>五次方程计算器</h2>
+        <form>
+            <label for="num5">五次项系数</label> <input type="text" class="form-control" id="num5">
+            <label for="num4">四次项系数</label> <input type="text" class="form-control" id="num4">
+            <label for="num3">三次项系数</label> <input type="text" class="form-control" id="num3">
+            <label for="num2">二次项系数</label> <input type="text" class="form-control" id="num2">
+            <label for="num1">一次项系数</label> <input type="text" class="form-control" id="num1">
+            <label for="num0">常数项</label> <input type="text" class="form-control" id="num0">
+        </form>
+        <button class="btn" onclick="solve()">计算</button>
+        <p id="box"></p>
+    </div>
+</body>
+
+</html>
