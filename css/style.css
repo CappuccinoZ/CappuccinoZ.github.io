@@ -167,14 +167,14 @@ input:focus {
 }
 
 @font-face {
-    font-family: 'SourceHanSans';
+    font-family: 'Source Han Sans CN';
     font-style: normal;
     font-weight: 400;
     src: url("https://cdn.jsdelivr.net/gh/CappuccinoZ/font@main/SourceHanSansCN-Regular.woff2") format("woff2");
 }
 
 .post {
-    font-family: -apple-system, BlinkMacSystemFont, 'SourceHanSans', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Source Han Sans CN', sans-serif;
     font-size: 17px;
     line-height: 1.8;
     background: #fff;
