@@ -12,13 +12,40 @@
         .main_contents_wrapper {
             background-image: url("https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/charlotte.jpg")
         }
+        
+        input {
+            width: 25vw;
+            padding: 2px 12px;
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, .12)
+        }
+        
+        select {
+            color: #212529;
+            background: transparent;
+            position: relative;
+            display: inline-block;
+            box-sizing: border-box;
+            height: 36px;
+            padding-right: 24px;
+            padding-left: 0;
+            font-size: 16px;
+            vertical-align: middle;
+            border: none;
+            border-bottom: 1px solid rgba(0, 0, 0, .12);
+            outline: 0;
+            cursor: pointer;
+            appearance: none;
+            user-select: none
+        }
     </style>
 </head>
 
 <body>
     <div class="main_contents_wrapper">
         <div class="main_right_top_box">
-            <p style="color:#fff; font-size:3vh">正因为有可能发生<br>才会叫做“奇迹”</p>
+            <p style="color:#fff;font-size:3vh">正因为有可能发生<br>才会叫做“奇迹”</p>
         </div>
     </div>
 
@@ -38,7 +65,22 @@
 
     <div class="container" id="index">
         <h1>CappuccinoZ</h1>
-        <script src="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/search.js"></script>
+        <div style="display:inline-block;margin:2.5px 12px">
+            <select id="select">
+                <option>百度</option>
+                <option>必应</option>
+                <option>搜狗</option>
+                <option>知乎</option>
+                <option>有道</option>
+                <option>谷歌翻译</option>
+                <option>柯林斯</option>
+                <option>朗文</option>
+                <option>韦氏</option>
+                <option>Wolfram</option>
+            </select>
+            <input type="text" class="form-control" id="text" placeholder="搜索内容" onkeydown="keydown(event)">
+            <a onmouseover="mouseover()" id="enter" style="padding:0 6px"><span class="material-icons">&#xe8b6;</span></a>
+        </div>
         <p class="line"></p>
         <a href="http://xinhuanet.com">新华网</a>
         <a href="https://www.thepaper.cn">澎湃</a>
@@ -138,14 +180,7 @@
     <script src="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/Meting.min.js"></script>
     <meting-js server=netease type=playlist id=695030115 fixed=true> </meting-js>
     <script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
-    <script>
-        var heroBottom, _window = $(window),
-            _header = $(".menu_wrapper");
-        _window.on("scroll", function() {
-            heroBottom = $(".main_contents_wrapper").height(), _window.scrollTop() > heroBottom ? _header.addClass("_fixed") : _header.removeClass("_fixed")
-        }), _window.trigger("scroll");
-        console.log("( #╹╹# )")
-    </script>
+    <script src="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io@master/js/index.js"></script>
 </body>
 
 </html>
