@@ -51,6 +51,7 @@ h3 {
     width: 100%;
     background: #1b458c;
     transition: all 1s;
+    z-index: 1;
 }
 
 ._fixed {
