@@ -301,8 +301,8 @@ sup > a::before,
 }
 html,
 body {
-  font-size: 16px;
-  font-family: var(--font-family-sans-serif);
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Han Sans CN', 'Microsoft Yahei', sans-serif;
 }
 html,
 body,
@@ -345,14 +345,14 @@ img[lazyload] {
   --color-mode: 'light';
   --body-bg-color: #eee;
   --board-bg-color: #fff;
-  --text-color: #3c4858;
+  --text-color: #212529;
   --sec-text-color: #718096;
-  --post-text-color: #2c3e50;
+  --post-text-color: #212529;
   --post-heading-color: #1a202c;
   --post-link-color: #0366d6;
-  --link-hover-color: #30a9de;
+  --link-hover-color: #0b73d4;
   --link-hover-bg-color: #f8f9fa;
-  --navbar-bg-color: #2f4154;
+  --navbar-bg-color: #1a458b;
   --navbar-text-color: #fff;
 }
 @media (prefers-color-scheme: dark) {
@@ -889,7 +889,7 @@ img[lazyload] {
 .markdown-body {
   font-size: 1rem;
   margin-bottom: 2rem;
-  font-family: var(--font-family-sans-serif);
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Han Sans CN', 'Microsoft Yahei', sans-serif;
   color: var(--post-text-color);
 }
 .markdown-body h1,
@@ -1678,11 +1678,11 @@ post-custom {
   border-left: 0.35rem solid;
   border-radius: 0.25rem;
   margin: 1.5rem 0;
-  color: #3c4858;
+  color: #212529;
   font-size: 0.9rem;
 }
 .note a {
-  color: #3c4858;
+  color: #212529;
 }
 .note *:last-child {
   margin-bottom: 0;
@@ -1722,7 +1722,7 @@ note-default {
   font-size: 85%;
   margin: 0;
   padding: 0.2em 0.4em;
-  color: #3c4858;
+  color: #212529;
 }
 .label-default {
   background: #f7f7f7;
