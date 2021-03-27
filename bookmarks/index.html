@@ -1,0 +1,513 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=&#34;auto&#34;>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/favicon.ico">
+  <link rel="icon" href="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/favicon.ico">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#1a458b">
+  <meta name="description" content="Index">
+  <meta name="author" content="CappuccinoZ">
+  <meta name="keywords" content="">
+  
+  <title>网页书签 - CappuccinoZ</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_kmeydafke9r.css">
+
+
+<link  rel="stylesheet" href="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"cappuccinoz.github.io","root":"/","version":"1.8.9","typing":{"enable":false,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null}}};
+  </script>
+  <script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/utils.js" ></script>
+  <script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+
+<body>
+  <header style="height: 60vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand"
+       href="/">&nbsp;<strong>CappuccinoZ</strong>&nbsp;</a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-exp-fill"></i>
+                实验室
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="//cappuccinoz.github.io/complex.html">
+                    
+                    方程
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="//cappuccinoz.github.io/bibi/index.html">
+                    
+                    epub
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" href="javascript:">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/img/charlotte.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="网页书签">
+              
+                网页书签
+              
+            </span>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<article class="page-content">
+  <style>
+    #index a {
+        margin: 2.5px 0 2.5px 5px;
+        padding: .375rem .75rem;
+        border: 1px solid #cbf1f5;
+        border-radius: 5px;
+        background: #fff;
+        color: #0b73d4;
+        display: inline-block;
+        vertical-align: middle;
+        text-decoration: none;
+        transition: color .15s ease-in-out, background .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        -webkit-user-select: none;
+        user-select: none;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    #index a:hover {
+        background: #6dd6f4;
+        color: #fff;
+    }
+
+    #index a:focus,
+    input:focus {
+        outline: 0;
+        border-color: #80bdff;
+    }
+
+    .line {
+        margin: 1rem 0;
+        width: 150px;
+        height: 4px;
+        background: #80bdff;
+    }
+
+    input {
+        height: 2rem;
+        background: rgba(255, 255, 255, .25);
+        background-clip: padding-box;
+        color: #495057;
+        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        font-size: 1rem;
+        line-height: 1.5;
+        width: 25vw;
+        padding: 2px 12px;
+        border-radius: 0;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, .12)
+    }
+
+    select {
+        color: #212529;
+        background: transparent;
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        height: 36px;
+        padding-right: 24px;
+        padding-left: 0;
+        font-size: 16px;
+        vertical-align: middle;
+        border: none;
+        border-bottom: 1px solid rgba(0, 0, 0, .12);
+        outline: 0;
+        cursor: pointer;
+        appearance: none;
+        user-select: none;
+    }
+
+    @font-face {
+        font-family: 'Material Icons';
+        font-style: normal;
+        font-weight: 400;
+        src: url("//cdn.jsdelivr.net/gh/CappuccinoZ/font@main/MaterialIcons-Regular.woff2") format('woff2');
+    }
+
+    .material-icons {
+        font-family: 'Material Icons';
+        font-size: 24px;
+        vertical-align: middle;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-feature-settings: 'liga';
+        font-feature-settings: 'liga';
+    }
+</style>
+
+<div id="index">
+    <div style="display:inline-block;margin:2.5px 12px">
+        <select id="select">
+            <option>百度</option>
+            <option>必应</option>
+            <option>搜狗</option>
+            <option>知乎</option>
+            <option>有道</option>
+            <option>谷歌翻译</option>
+            <option>柯林斯</option>
+            <option>朗文</option>
+            <option>韦氏</option>
+            <option>Wolfram</option>
+        </select>
+        <script>
+            var urls = new Array("//www.baidu.com/s?wd=", "//cn.bing.com/search?q=", "//www.sogou.com/web?query=", "//www.zhihu.com/search?q=", "http://www.youdao.com/w/", "//translate.google.cn/?sl=auto&&text=", "//www.collinsdictionary.com/dictionary/english/", "//www.ldoceonline.com/dictionary/", "//www.merriam-webster.com/dictionary/", "//www.wolframalpha.com/input/?i=");
+            var mouseover = () => enter.href = urls[select.selectedIndex] + text.value;
+            var keydown = (e) => {
+                if (e.keyCode == 13) {
+                    mouseover();
+                    enter.click()
+                }
+            }
+            console.log("( #╹╹# )")
+        </script>
+        <input type="text" id="text" placeholder="搜索内容" onkeydown="keydown(event)">
+        <a onmouseover="mouseover()" id="enter" style="padding:0 6px"><span class="material-icons">&#xe8b6;</span></a>
+    </div>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//xinhuanet.com">新华网</a>
+    <a target="_blank" rel="noopener" href="//www.thepaper.cn">澎湃</a>
+    <a target="_blank" rel="noopener" href="//www.people.com.cn">人民网</a>
+    <a target="_blank" rel="noopener" href="//www.gmw.cn">光明网</a>
+    <a target="_blank" rel="noopener" href="//www.bjnews.com.cn">新京报</a>
+    <a target="_blank" rel="noopener" href="//wht.im">万花筒</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//weread.qq.com">微信读书</a>
+    <a target="_blank" rel="noopener" href="//www.jiumodiary.com">鸠摩</a>
+    <a target="_blank" rel="noopener" href="//www.zdic.net">汉典</a>
+    <a target="_blank" rel="noopener" href="//www.ccamc.org">CCAMC</a>
+    <a target="_blank" rel="noopener" href="//soukaapp.com/dict">Souka</a>
+    <a target="_blank" rel="noopener" href="//www.jd.com">京东</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//www.geogebra.org">GeoGebra</a>
+    <a target="_blank" rel="noopener" href="//www.latexlive.com">LaTeX</a>
+    <a target="_blank" rel="noopener" href="//oeis.org">数列</a>
+    <a target="_blank" rel="noopener" href="//www.matrix67.com">Matrix67</a>
+    <a target="_blank" rel="noopener" href="//docs.microsoft.com/zh-cn/dotnet">.NET</a>
+    <a target="_blank" rel="noopener" href="//www.luxunmuseum.com.cn/cx/">鲁迅资料</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//qzone.qq.com">QQ空间</a>
+    <a target="_blank" rel="noopener" href="//www.zhihu.com/explore">知乎</a>
+    <a target="_blank" rel="noopener" href="//weibo.com">微博</a>
+    <a target="_blank" rel="noopener" href="//tieba.baidu.com">贴吧</a>
+    <a target="_blank" rel="noopener" href="//github.com">GitHub</a>
+    <a target="_blank" rel="noopener" href="//trace.moe">WAIT</a>
+    <a target="_blank" rel="noopener" href="//saucenao.com">SauceNAO</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//space.bilibili.com/198768424/bangumi">Bilibili</a>
+    <a target="_blank" rel="noopener" href="//www.acfun.cn">AcFun</a>
+    <a target="_blank" rel="noopener" href="//vcb-s.com">VCB Studio</a>
+    <a target="_blank" rel="noopener" href="//www.iqiyi.com">爱奇艺</a>
+    <a target="_blank" rel="noopener" href="//www.youku.com">优酷</a>
+    <a target="_blank" rel="noopener" href="//v.qq.com">腾讯视频</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//music.163.com">网易云</a>
+    <a target="_blank" rel="noopener" href="//y.qq.com">QQ音乐</a>
+    <a target="_blank" rel="noopener" href="//www.kugou.com">酷狗</a>
+    <a target="_blank" rel="noopener" href="//konfan.net">K-onFan!</a>
+    <a target="_blank" rel="noopener" href="//lrc-maker.github.io">歌词滚动姬</a>
+    <a target="_blank" rel="noopener" href="//key.visualarts.gr.jp">Key</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//www.wenku8.net/index.php">轻小说文库</a>
+    <a target="_blank" rel="noopener" href="//www.lightnovel.us">轻之国度</a>
+    <a target="_blank" rel="noopener" href="//www.narcissuweb.com">narcissu</a>
+    <a target="_blank" rel="noopener" href="//www.haruhifanclub.com/library">凉宫春日</a>
+    <a target="_blank" rel="noopener" href="//www.ymgal.com">月幕</a>
+    <a target="_blank" rel="noopener" href="//sharemoe.net">Pixivic</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//www.google.cn/chrome">Chrome</a>
+    <a target="_blank" rel="noopener" href="//im.qq.com">QQ</a>
+    <a target="_blank" rel="noopener" href="//visualstudio.microsoft.com">Visual Studio</a>
+    <a target="_blank" rel="noopener" href="//www.edrawsoft.cn/mindmaster">MindMaster</a>
+    <a target="_blank" rel="noopener" href="//www.chuyu.me">Dism++</a>
+    <a target="_blank" rel="noopener" href="//otp.landian.vip">Office Tool</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//outlook.live.com">Outlook</a>
+    <a target="_blank" rel="noopener" href="//mail.qq.com">QQ邮箱</a>
+    <a target="_blank" rel="noopener" href="//email.163.com">网易邮箱</a>
+    <a target="_blank" rel="noopener" href="//www.ssleye.com">SSL工具</a>
+    <a target="_blank" rel="noopener" href="//oktools.net">OKTools</a>
+    <a target="_blank" rel="noopener" href="//www.sojson.com">SOJSON</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//earth.nullschool.net">Earth</a>
+    <a target="_blank" rel="noopener" href="//smallpdf.com">Smallpdf</a>
+    <a target="_blank" rel="noopener" href="//bigjpg.com">Bigjpg</a>
+    <a target="_blank" rel="noopener" href="//bke.bakery.moe">BKEngine</a>
+    <a target="_blank" rel="noopener" href="//www.snipaste.com">Snipaste</a>
+    <a target="_blank" rel="noopener" href="//www.mdui.org">MDUI</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//fastgit.org">fastgit</a>
+    <a target="_blank" rel="noopener" href="//ghproxy.com">ghproxy</a>
+    <a target="_blank" rel="noopener" href="//aliyundrive.com">阿里云盘</a>
+    <a target="_blank" rel="noopener" href="//up.woozooo.com">蓝奏云</a>
+    <a target="_blank" rel="noopener" href="//dida365.com">滴答清单</a>
+    <a target="_blank" rel="noopener" href="//www.yinxiang.com">印象笔记</a>
+    <div class="line"></div>
+    <a target="_blank" rel="noopener" href="//diygod.me">DIYgod</a>
+    <a target="_blank" rel="noopener" href="//moedog.org">Moedog</a>
+    <a target="_blank" rel="noopener" href="//darer.flysblog.cn">菜姬窝</a>
+    <a target="_blank" rel="noopener" href="//yukiha.org">雪羽</a>
+    <a target="_blank" rel="noopener" href="//hk-shao.github.io">烧风</a>
+    <a target="_blank" rel="noopener" href="//www.axutongxue.com">阿虚同学</a>
+    <a target="_blank" rel="noopener" href="//kami.im/praed.php">kami</a>
+    <div class="line"></div>
+</div>
+
+  
+</article>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <i class="iconfont icon-copyright"></i>2021 CappuccinoZ｜Theme <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" ></script>
+<script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/debouncer.js" ></script>
+<script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/events.js" ></script>
+<script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  
+    <script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
+
+
+
+  <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="//cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/js/boot.js" ></script>
+
+
+</body>
+</html>
