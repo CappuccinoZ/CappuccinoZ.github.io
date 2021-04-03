@@ -233,8 +233,7 @@
         color: #fff;
     }
 
-    #index a:focus,
-    input:focus {
+    #index a:focus {
         outline: 0;
         border-color: #80bdff;
     }
@@ -246,32 +245,16 @@
         background: #80bdff;
     }
 
-    input {
-        height: 2rem;
-        background: rgba(255, 255, 255, .25);
-        background-clip: padding-box;
-        color: #495057;
-        transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-        font-size: 1rem;
-        line-height: 1.5;
-        width: 25vw;
-        padding: 2px 12px;
-        border-radius: 0;
-        border: none;
-        border-bottom: 1px solid rgba(0, 0, 0, .12)
-    }
-
     select {
         color: #212529;
         background: transparent;
         position: relative;
         display: inline-block;
         box-sizing: border-box;
-        height: 36px;
         padding-right: 24px;
         padding-left: 0;
         font-size: 16px;
-        vertical-align: top;
+        vertical-align: bottom;
         border: none;
         border-bottom: 1px solid rgba(0, 0, 0, .12);
         outline: 0;
@@ -279,52 +262,23 @@
         appearance: none;
         user-select: none;
     }
-
-    @font-face {
-        font-family: 'Material Icons';
-        font-style: normal;
-        font-weight: 400;
-        src: url("//cdn.jsdelivr.net/gh/CappuccinoZ/font@main/MaterialIcons-Regular.woff2") format('woff2');
-    }
-
-    .material-icons {
-        font-family: 'Material Icons';
-        font-size: 24px;
-        vertical-align: middle;
-        -webkit-font-smoothing: antialiased;
-        text-rendering: optimizeLegibility;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-font-feature-settings: 'liga';
-        font-feature-settings: 'liga';
-    }
 </style>
 
 <div id="index">
-    <div style="display:inline-block;margin:2.5px 12px">
+    <div class="md-form" style="display:inline-block;margin:2.5px 12px">
         <select id="select">
-            <option>百度</option>
-            <option>必应</option>
-            <option>搜狗</option>
-            <option>有道</option>
-            <option>谷歌翻译</option>
-            <option>柯林斯</option>
-            <option>朗文</option>
-            <option>韦氏</option>
-            <option>Wolfram</option>
+            <option value="//www.baidu.com/s?wd=">百度</option>
+            <option value="//cn.bing.com/search?q=">必应</option>
+            <option value="//www.sogou.com/web?query=">搜狗</option>
+            <option value="http://www.youdao.com/w/">有道</option>
+            <option value="//translate.google.cn/?sl=auto&&text=">谷歌翻译</option>
+            <option value="//www.collinsdictionary.com/dictionary/english/">柯林斯</option>
+            <option value="//www.ldoceonline.com/dictionary/">朗文</option>
+            <option value="//www.merriam-webster.com/dictionary/">韦氏</option>
+            <option value="//www.wolframalpha.com/input/?i=">Wolfram</option>
         </select>
-        <script>
-            var urls = new Array("//www.baidu.com/s?wd=", "//cn.bing.com/search?q=", "//www.sogou.com/web?query=", "http://www.youdao.com/w/", "//translate.google.cn/?sl=auto&&text=", "//www.collinsdictionary.com/dictionary/english/", "//www.ldoceonline.com/dictionary/", "//www.merriam-webster.com/dictionary/", "//www.wolframalpha.com/input/?i=");
-            var mouseover = () => enter.href = urls[select.selectedIndex] + text.value;
-            var keydown = (e) => {
-                if (e.keyCode == 13) {
-                    mouseover();
-                    enter.click()
-                }
-            }
-            console.log("( #╹╹# )")
-        </script>
+        <script>var keydown = (e) => { if (e.keyCode == 13) window.open(select.value + encodeURIComponent(text.value)); }</script>
         <input type="text" id="text" placeholder="搜索内容" onkeydown="keydown(event)">
-        <a onmouseover="mouseover()" id="enter" style="padding:0 6px"><span class="material-icons">&#xe8b6;</span></a>
     </div>
     <div class="line"></div>
     <a target="_blank" rel="noopener" href="http://xinhuanet.com">新华网</a>
