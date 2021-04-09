@@ -114,7 +114,7 @@ document.write(`<table>
 <td style="background:#ececec"><sub>113</sub>Nh<br>鿭<br>[286]</td>
 <td style="background:#ececec"><sub>114</sub>Fl<br>𫓧<br>[289]</td>
 <td style="background:#ececec"><sub>115</sub>Mc<br>镆<br>[289]</td>
-<td style="background:#ececec"><sub>116</sub>Lv<br>鉝<br>[293]</td>
+<td style="background:#ececec"><sub>116</sub>Lv<br>𫟷<br>[293]</td>
 <td style="background:#ececec"><sub>117</sub>Ts<br>鿬<br>[294]</td>
 <td style="background:#ececec"><sub>118</sub>Og<br>鿫<br>[294]</td>
 </tr>
