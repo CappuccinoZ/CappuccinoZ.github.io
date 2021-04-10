@@ -302,7 +302,7 @@ sup > a::before,
 html,
 body {
   font-size: 17px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Source Han Sans CN', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', 'Microsoft Yahei', sans-serif;
 }
 html,
 body,
@@ -889,7 +889,7 @@ img[lazyload] {
 .markdown-body {
   font-size: 1rem;
   margin-bottom: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Source Han Sans CN', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', 'Microsoft Yahei', sans-serif;
   color: var(--post-text-color);
 }
 .markdown-body h1,
