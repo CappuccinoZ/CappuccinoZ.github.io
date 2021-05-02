@@ -269,7 +269,7 @@ sup > a::before,
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 #scroll-top-button i {
-  font-size: 1.75rem;
+  font-size: 32px;
   margin: auto;
   color: var(--sec-text-color);
 }
@@ -299,10 +299,9 @@ sup > a::before,
 #local-search-result .search-word {
   color: #ff4500;
 }
-html,
-body {
+html {
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', sans-serif;
 }
 html,
 body,
@@ -329,6 +328,9 @@ body a:hover {
 code {
   color: inherit;
 }
+table {
+  font-size: inherit;
+}
 img[lazyload] {
   object-fit: cover;
 }
@@ -345,12 +347,12 @@ img[lazyload] {
   --color-mode: 'light';
   --body-bg-color: #eee;
   --board-bg-color: #fff;
-  --text-color: #212529;
+  --text-color: #3c4858;
   --sec-text-color: #718096;
-  --post-text-color: #212529;
+  --post-text-color: #2c3e50;
   --post-heading-color: #1a202c;
   --post-link-color: #0366d6;
-  --link-hover-color: #0b73d4;
+  --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
   --navbar-bg-color: #1a458b;
   --navbar-text-color: #fff;
@@ -889,7 +891,7 @@ img[lazyload] {
 .markdown-body {
   font-size: 1rem;
   margin-bottom: 2rem;
-  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', 'Microsoft Yahei', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, '思源黑体', sans-serif;
   color: var(--post-text-color);
 }
 .markdown-body h1,
@@ -1329,7 +1331,7 @@ mjx-container svg:focus,
   color: var(--sec-text-color);
   margin: 0.5rem 0 0.5rem 0;
   max-height: calc(1.4rem * 3);
-  line-height: 1.4;
+  line-height: 1.4rem;
   overflow: hidden;
 }
 .index-excerpt > div {
@@ -1556,6 +1558,11 @@ post-custom {
 .comments {
   margin-top: 2rem;
 }
+.comments noscript {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+}
 .visitors {
   font-size: 0.8em;
   padding: 0.45rem;
@@ -1678,11 +1685,11 @@ post-custom {
   border-left: 0.35rem solid;
   border-radius: 0.25rem;
   margin: 1.5rem 0;
-  color: #212529;
+  color: #3c4858;
   font-size: 0.9rem;
 }
 .note a {
-  color: #212529;
+  color: #3c4858;
 }
 .note *:last-child {
   margin-bottom: 0;
@@ -1722,7 +1729,7 @@ note-default {
   font-size: 85%;
   margin: 0;
   padding: 0.2em 0.4em;
-  color: #212529;
+  color: #3c4858;
 }
 .label-default {
   background: #f7f7f7;
