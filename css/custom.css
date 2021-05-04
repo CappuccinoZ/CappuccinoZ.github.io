@@ -1,7 +1,4 @@
 @charset "utf-8";
-main * {
-    transition: .3s ease-out !important;
-}
 
 a {
     text-decoration: none;
@@ -15,8 +12,8 @@ a {
     padding: 5px;
     margin: 1px 20px 1px 0;
     border-radius: 3px;
-    -webkit-transition: .3s ease-out;
-    transition: .3s ease-out;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .bluebird a:hover {
@@ -47,4 +44,6 @@ select {
     border-bottom: 1px solid #ced4da;
     outline: 0;
     appearance: none;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
 }
