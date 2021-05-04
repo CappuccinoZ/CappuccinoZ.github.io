@@ -1,0 +1,50 @@
+@charset "utf-8";
+main * {
+    transition: .3s ease-out !important;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+.bluebird a {
+    display: inline-block;
+    color: #0b73d4;
+    background: #fff;
+    padding: 5px;
+    margin: 1px 20px 1px 0;
+    border-radius: 3px;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.bluebird a:hover {
+    color: #fff;
+    background: #6dd6f4;
+}
+
+[data-user-color-scheme='dark'] .bluebird a {
+    color: var(--post-text-color);
+    background: var(--board-bg-color);
+}
+
+.line {
+    margin: 1rem 0;
+    width: 150px;
+    height: 4px;
+    background-color: #1dc1f0;
+}
+
+select {
+    color: var(--post-text-color);
+    background: var(--board-bg-color);
+    position: relative;
+    display: inline-block;
+    padding: 1px 2px;
+    vertical-align: bottom;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    outline: 0;
+    appearance: none;
+}

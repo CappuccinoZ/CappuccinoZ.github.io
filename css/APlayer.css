@@ -681,6 +681,11 @@
     fill: #000
 }
 
+.aplayer-title,
+.aplayer-list-title {
+    color: #666
+}
+
 @-webkit-keyframes aplayer-roll {
     0% {
         left: 0
