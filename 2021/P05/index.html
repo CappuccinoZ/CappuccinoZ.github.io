@@ -402,12 +402,13 @@
         &#123;
             <span class="hljs-keyword">if</span> (stations.Count &gt; <span class="hljs-number">0</span>)
                 x = <span class="hljs-constructor">Start(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">e</span>, <span class="hljs-params">stations</span>)</span>;
-            <span class="hljs-keyword">do</span>
-            &#123;
-                t = x;
-                x -= <span class="hljs-constructor">Fun5_calc(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">e</span>, <span class="hljs-params">x</span>)</span><span class="hljs-operator"> / </span><span class="hljs-constructor">Fun5_derivative(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">x</span>)</span>;
-                i++;
-            &#125; <span class="hljs-keyword">while</span> (i &lt; <span class="hljs-number">6000</span><span class="hljs-operator"> &amp;&amp; </span>Math.<span class="hljs-constructor">Abs(<span class="hljs-params">x</span> - <span class="hljs-params">t</span>)</span> &gt; <span class="hljs-number">1e-15</span>);
+            <span class="hljs-keyword">if</span> (!<span class="hljs-constructor">Equal(Fun5_calc(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">e</span>, <span class="hljs-params">x</span>)</span>, <span class="hljs-number">0</span>))
+                <span class="hljs-keyword">do</span>
+                &#123;
+                    t = x;
+                    x -= <span class="hljs-constructor">Fun5_calc(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">e</span>, <span class="hljs-params">x</span>)</span><span class="hljs-operator"> / </span><span class="hljs-constructor">Fun5_derivative(<span class="hljs-params">a</span>, <span class="hljs-params">b</span>, <span class="hljs-params">c</span>, <span class="hljs-params">d</span>, <span class="hljs-params">x</span>)</span>;
+                    i++;
+                &#125; <span class="hljs-keyword">while</span> (i &lt; <span class="hljs-number">6000</span><span class="hljs-operator"> &amp;&amp; </span>Math.<span class="hljs-constructor">Abs(<span class="hljs-params">x</span> - <span class="hljs-params">t</span>)</span> &gt; <span class="hljs-number">1e-15</span>);
             Console.<span class="hljs-constructor">WriteLine(<span class="hljs-string">&quot;迭代次数：&#123;0&#125;&quot;</span>, <span class="hljs-params">i</span>)</span>;
         &#125;
 
