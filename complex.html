@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io@master/css/custom.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CappuccinoZ/CappuccinoZ.github.io@master/css/style.css">
     <script src="https://cdn.jsdelivr.net/gh/CappuccinoZ/Equation-solver@master/complex.js"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>    </script>
     <style>
@@ -25,7 +26,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="bluebird">
         <h2>五次方程计算器</h2>
         <form>
             <label for="num5">五次项系数</label> <input type="text" class="form-control" id="num5">
@@ -35,7 +36,7 @@
             <label for="num1">一次项系数</label> <input type="text" class="form-control" id="num1">
             <label for="num0">常数项</label> <input type="text" class="form-control" id="num0">
         </form>
-        <button class="btn" onclick="solve()">计算</button>
+        <a class="btn" onclick="solve()">计算</a>
         <p id="box"></p>
     </div>
 </body>
