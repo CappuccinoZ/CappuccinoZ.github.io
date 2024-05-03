@@ -16,18 +16,21 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="http://cappuccinoz.github.io/about/index.html">
+    <meta name="description" content="24点解题代码">
+<meta property="og:type" content="article">
+<meta property="og:title" content="24点">
+<meta property="og:url" content="http://cappuccinoz.github.io/2024/05/03/24dian/index.html">
 <meta property="og:site_name" content="CappuccinoZ">
+<meta property="og:description" content="24点解题代码">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-07-06T13:02:50.406Z">
-<meta property="article:modified_time" content="2023-07-06T13:02:50.406Z">
+<meta property="article:published_time" content="2024-05-02T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-05-03T11:49:24.058Z">
+<meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>关于 - CappuccinoZ</title>
+  <title>24点 - CappuccinoZ</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -87,7 +90,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 70vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -192,9 +195,49 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="关于"></span>
+            <span id="subtitle" data-typed-text="24点"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-05-03 00:00" pubdate>
+          2024年5月3日
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.5k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          13 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
 
         
       </div>
@@ -210,49 +253,89 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-            <div class="about-avatar">
-              <img src="/img/avatar.jpg" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
-            </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="text-center">
-  <div class="about-info">
-    <div class="about-name">CappuccinoZ</div>
-    <div class="about-intro">正因为有可能发生 才会叫做“奇迹”</div>
-    <div class="about-icons">
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
       
-        
-        
-        
-        <a href=https://github.com/cappuccinoz class="
-           hint--bottom hint--rounded"
-           aria-label=GitHub
-           target="_blank"
-        >
-          <i class="iconfont icon-github-fill" aria-hidden="true"></i>
-          
-        </a>
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">24点</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs Python"><span class="hljs-keyword">import</span> itertools<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solve24</span>():<br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">__init__</span>(<span class="hljs-params">self,num</span>):<br>        self.numset=<span class="hljs-built_in">set</span>(itertools.permutations(num))<br>        self.operate=[<span class="hljs-string">&#x27;+&#x27;</span>,<span class="hljs-string">&#x27;-&#x27;</span>,<span class="hljs-string">&#x27;*&#x27;</span>,<span class="hljs-string">&#x27;/&#x27;</span>]<br>        self.operatelist=<span class="hljs-built_in">list</span>(itertools.product(self.operate,repeat=<span class="hljs-number">3</span>))<br><br>    <span class="hljs-keyword">def</span> <span class="hljs-title function_">solve</span>(<span class="hljs-params">self</span>):<br>        s1=[<span class="hljs-string">&#x27;(&#123;&#125;&#123;&#125;(&#123;&#125;&#123;&#125;&#123;&#125;))&#123;&#125;&#123;&#125;&#x27;</span>.<span class="hljs-built_in">format</span>(num[<span class="hljs-number">0</span>],sign[<span class="hljs-number">0</span>],num[<span class="hljs-number">1</span>],sign[<span class="hljs-number">1</span>],num[<span class="hljs-number">2</span>],sign[<span class="hljs-number">2</span>],num[<span class="hljs-number">3</span>]) <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> self.numset <span class="hljs-keyword">for</span> sign <span class="hljs-keyword">in</span> self.operatelist]<br>        s2=[<span class="hljs-string">&#x27;(&#123;&#125;&#123;&#125;&#123;&#125;)&#123;&#125;(&#123;&#125;&#123;&#125;&#123;&#125;)&#x27;</span>.<span class="hljs-built_in">format</span>(num[<span class="hljs-number">0</span>],sign[<span class="hljs-number">0</span>],num[<span class="hljs-number">1</span>],sign[<span class="hljs-number">1</span>],num[<span class="hljs-number">2</span>],sign[<span class="hljs-number">2</span>],num[<span class="hljs-number">3</span>]) <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> self.numset <span class="hljs-keyword">for</span> sign <span class="hljs-keyword">in</span> self.operatelist]<br>        s3=[<span class="hljs-string">&#x27;((&#123;&#125;&#123;&#125;&#123;&#125;)&#123;&#125;&#123;&#125;)&#123;&#125;&#123;&#125;&#x27;</span>.<span class="hljs-built_in">format</span>(num[<span class="hljs-number">0</span>],sign[<span class="hljs-number">0</span>],num[<span class="hljs-number">1</span>],sign[<span class="hljs-number">1</span>],num[<span class="hljs-number">2</span>],sign[<span class="hljs-number">2</span>],num[<span class="hljs-number">3</span>]) <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> self.numset <span class="hljs-keyword">for</span> sign <span class="hljs-keyword">in</span> self.operatelist]<br>        s4=[<span class="hljs-string">&#x27;&#123;&#125;&#123;&#125;(&#123;&#125;&#123;&#125;(&#123;&#125;&#123;&#125;&#123;&#125;))&#x27;</span>.<span class="hljs-built_in">format</span>(num[<span class="hljs-number">0</span>],sign[<span class="hljs-number">0</span>],num[<span class="hljs-number">1</span>],sign[<span class="hljs-number">1</span>],num[<span class="hljs-number">2</span>],sign[<span class="hljs-number">2</span>],num[<span class="hljs-number">3</span>]) <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> self.numset <span class="hljs-keyword">for</span> sign <span class="hljs-keyword">in</span> self.operatelist]<br>        s5=[<span class="hljs-string">&#x27;&#123;&#125;&#123;&#125;((&#123;&#125;&#123;&#125;&#123;&#125;)&#123;&#125;&#123;&#125;)&#x27;</span>.<span class="hljs-built_in">format</span>(num[<span class="hljs-number">0</span>],sign[<span class="hljs-number">0</span>],num[<span class="hljs-number">1</span>],sign[<span class="hljs-number">1</span>],num[<span class="hljs-number">2</span>],sign[<span class="hljs-number">2</span>],num[<span class="hljs-number">3</span>]) <span class="hljs-keyword">for</span> num <span class="hljs-keyword">in</span> self.numset <span class="hljs-keyword">for</span> sign <span class="hljs-keyword">in</span> self.operatelist]<br>        solvelist=s1+s2+s3+s4+s5<br><br>        <span class="hljs-keyword">for</span> item <span class="hljs-keyword">in</span> solvelist:<br>            <span class="hljs-keyword">try</span>:<br>                <span class="hljs-keyword">if</span> <span class="hljs-built_in">abs</span>(<span class="hljs-built_in">eval</span>(item)-<span class="hljs-number">24</span>)&lt;<span class="hljs-number">0.01</span>:<br>                    <span class="hljs-built_in">print</span>(item)<br>            <span class="hljs-keyword">except</span>:<br>                <span class="hljs-keyword">pass</span><br><br><span class="hljs-keyword">if</span> __name__==<span class="hljs-string">&#x27;__main__&#x27;</span>:<br>    a=[<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">5</span>,<span class="hljs-number">12</span>]<br>    solve24=Solve24(a)<br>    solve24.solve()<br><br></code></pre></td></tr></table></figure>
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
+        <a href="/tags/CS/">#CS</a>
+      
+    </div>
+  
+</div>
+
+
+              
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2023/08/01/day/" title="星期几">
+                        <span class="hidden-mobile">星期几</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
     </div>
   </div>
 </div>
 
-<article class="about-content page-content mt-5">
-  <div class="markdown-body">
-    
-  </div>
-
-  
-</article>
-
 
 
 
@@ -279,11 +362,8 @@
 
 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
     
 
     
@@ -376,6 +456,34 @@
   
 
 
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
 
 
   <script src=https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js></script>
