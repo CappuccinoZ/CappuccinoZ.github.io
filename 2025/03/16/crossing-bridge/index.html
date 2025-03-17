@@ -23,10 +23,12 @@
 <meta property="og:site_name" content="CappuccinoZ">
 <meta property="og:description" content="使用随机选择解决四人过桥问题">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/cappuccinoz/cappuccinoz.github.io@master/img/crossing-bridge.gif">
 <meta property="article:published_time" content="2025-03-15T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-03-16T15:19:41.548Z">
+<meta property="article:modified_time" content="2025-03-17T08:04:23.991Z">
 <meta property="article:tag" content="CS">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/cappuccinoz/cappuccinoz.github.io@master/img/crossing-bridge.gif">
   
   
   
@@ -318,6 +320,8 @@
 <li>让最快的两人交替返回，确保手电筒能高效传递。</li>
 <li>让最慢的两人一起过桥，避免时间浪费。</li>
 </ol>
+<img src="https://cdn.jsdelivr.net/gh/cappuccinoz/cappuccinoz.github.io@master/img/crossing-bridge.gif" srcset="/img/loading.gif" lazyload alt="crossing-bridge.gif">
+
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">def</span> <span class="hljs-title function_">solve</span>(<span class="hljs-params">a</span>):<br>    left, right = <span class="hljs-built_in">sorted</span>(a), []<br>    time, state, steps = <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, []<br><br>    <span class="hljs-keyword">while</span> left:<br>        <span class="hljs-keyword">if</span> state % <span class="hljs-number">2</span>:<br>            move = left[:<span class="hljs-number">2</span>] <span class="hljs-keyword">if</span> state % <span class="hljs-number">4</span> == <span class="hljs-number">1</span> <span class="hljs-keyword">else</span> left[-<span class="hljs-number">2</span>:]<br>            time += <span class="hljs-built_in">max</span>(move)<br>            steps.append(<span class="hljs-string">f&quot;<span class="hljs-subst">&#123;move&#125;</span>过桥&quot;</span>)<br>            <span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> move:<br>                left.remove(p)<br>                right.append(p)<br>        <span class="hljs-keyword">else</span>:<br>            p = <span class="hljs-built_in">min</span>(right)<br>            time += p<br>            steps.append(<span class="hljs-string">f&quot;<span class="hljs-subst">&#123;p&#125;</span>返回&quot;</span>)<br>            right.remove(p)<br>            left = <span class="hljs-built_in">sorted</span>(left + [p])<br>        state += <span class="hljs-number">1</span><br><br>    <span class="hljs-keyword">return</span> time, <span class="hljs-string">&quot; &quot;</span>.join(steps)<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&quot;__main__&quot;</span>:<br>    time, steps = solve([<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">5</span>, <span class="hljs-number">10</span>])<br>    <span class="hljs-built_in">print</span>(<span class="hljs-string">f&quot;最短用时：<span class="hljs-subst">&#123;time&#125;</span>分钟\n方案：<span class="hljs-subst">&#123;steps&#125;</span>&quot;</span>)<br></code></pre></td></tr></table></figure>
 
 
