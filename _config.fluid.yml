@@ -993,7 +993,7 @@ about:
   banner_mask_alpha: 0.3
   avatar: /img/avatar2.png
   name: "CappuccinoZ"
-  intro: "正因为有可能发生 才会叫做“奇迹”"
+  intro: "良机一直就在你眼前"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, the icon is no longer a link, but a hovering QR code
   icons:
@@ -1040,10 +1040,16 @@ links:
   # Member item of page
   items:
     - {
-      title: "Fluid Blog",
-      intro: "主题博客",
-      link: "https://hexo.fluid-dev.com/",
-      avatar: "/img/favicon.png"
+      title: "Cappuccino's Blog",
+      intro: "良机一直就在你眼前",
+      link: "https://kitakita.top",
+      avatar: "/img/avatar2.png"
+    }
+    - {
+      title: "鈴奈咲桜のBlog",
+      intro: "愛することを忘れないで",
+      link: "https://blog.sakura.ink",
+      avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2731443459&spec=5"
     }
 
   # 当成员头像加载失败时，替换为指定图片
