@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Disallow: /api/
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://kitakita.top/sitemap.xml

@@ -3,6 +3,7 @@ title: 24点
 date: 2024-5-3
 tags: CS
 excerpt: 24点解题代码
+abbrlink: 752f44c9
 ---
 
 

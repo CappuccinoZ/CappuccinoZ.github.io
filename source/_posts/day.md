@@ -3,6 +3,7 @@ title: 星期几
 date: 2023-8-1
 tags: CS
 excerpt: 获取日期是星期几代码
+abbrlink: 7635390d
 ---
 ```C#
 static void getDay(int y, int m, int d)

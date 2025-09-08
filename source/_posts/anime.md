@@ -3,6 +3,7 @@ title: 补番列表
 date: 2025-8-26
 tags: 动画
 excerpt: 准备看和看过的一些动画（2025-8-26更新）
+abbrlink: bf4a42e6
 ---
 # 准备看
 mono女孩
