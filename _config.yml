@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CappuccinoZ
+title: Hi, CappuccinoZ
 subtitle: ''
-description: ''
-keywords:
-author:
+description: '个人博客，分享编程和记录日常'
+keywords: 个人博客, 技术博客, 编程笔记, 番剧推荐, 日常记录
+author: CappuccinoZ
 language: zh-CN
 timezone: ''
 
