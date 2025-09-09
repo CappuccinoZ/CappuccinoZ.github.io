@@ -1,10 +1,20 @@
+User-agent: SemrushBot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: MegaIndex.ru
+Disallow: /
+User-agent: MauiBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+
 User-agent: *
 Allow: /
-Allow: /archives/
-Allow: /categories/
-Allow: /tags/
 Disallow: /api/
-Disallow: /js/
-Disallow: /css/
 
 Sitemap: https://kitakita.top/sitemap.xml
