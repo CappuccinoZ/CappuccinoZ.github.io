@@ -1,14 +1,16 @@
 ---
 title: 四人过桥问题
 date: 2025-3-16
-tags: CS
+tags: 
+  - Python
+  - 算法
 excerpt: 使用随机选择解决四人过桥问题
 abbrlink: 5468ce14
 ---
 # 问题描述
 有四个人需要在夜间过桥，过桥时必须携带手电筒。他们只有一个手电筒，手电筒必须由人携带过桥。他们单独过桥的时间分别为`[1, 2, 5, 10]`分钟，两人同行时以较慢者的速度为准。桥每次最多只能承受2个人。问：如何在最短的时间内让所有人都过桥？
 
-<img src="http://imgs.977958.xyz/uploads//68bda8b51506b_crossing-bridge-1.gif" alt="crossing-bridge-1.gif">
+<img src="https://imgs.977958.xyz/uploads//68bda8b51506b_crossing-bridge-1.gif" alt="crossing-bridge-1.gif">
 
 
 # 随机选择算法
@@ -142,7 +144,7 @@ if __name__ == "__main__":
 ```
 
 ## 动画演示
-<img src="http://imgs.977958.xyz/uploads//68bda8bc5ce89_crossing-bridge-2.gif" alt="crossing-bridge-2.gif">
+<img src="https://imgs.977958.xyz/uploads//68bda8bc5ce89_crossing-bridge-2.gif" alt="crossing-bridge-2.gif">
 
 # 总结
 通过随机选择算法，我们成功找到了四人过桥问题的解决方案，最短用时是17分钟。

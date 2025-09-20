@@ -1,7 +1,7 @@
 ---
 title: 星期几
 date: 2023-8-1
-tags: CS
+tags: C Sharp
 excerpt: 获取日期是星期几代码
 abbrlink: 7635390d
 ---
