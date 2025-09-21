@@ -15,7 +15,7 @@ date: 2025-09-20 13:17:18
 国内下载vscode速度慢问题解决：https://zhuanlan.zhihu.com/p/112215618
 
 # npm配置
-```
+```sh
 # 查看npm配置
 npm config list
 # 设置npm镜像源
@@ -28,7 +28,7 @@ npm install npm -g
 ```
 
 # 创建项目
-```
+```sh
 # 创建Vue3项目
 npm create vue@latest
 # 打开项目文件夹
@@ -42,22 +42,20 @@ o
 ```
 
 # 安装Tailwind CSS
-```
-npm install tailwindcss @tailwindcss/vite
-```
+`npm install tailwindcss @tailwindcss/vite`
 
 # 配置Vite插件
 在`vite.config.ts`中添加插件：
 1. 导入插件：`import tailwindcss from '@tailwindcss/vite'`
-2. 在plugins列表中添加tailwindcss()
+2. 在plugins列表中添加`tailwindcss()`
 
 # 导入Tailwind CSS
 打开`src`文件夹，新建`style.css`文件，添加内容：
-```@import "tailwindcss";```
+`@import "tailwindcss";`
 
 # 使用Tailwind CSS
 编辑`index.html`文件，在`<head>`标签内添加内容：
-```<link href="/src/style.css" rel="stylesheet">```
+`<link href="/src/style.css" rel="stylesheet">`
 通过在`App.vue`文件中编辑class使用Tailwind CSS
 
 # vscode扩展
