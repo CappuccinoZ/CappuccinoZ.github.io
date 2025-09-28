@@ -49,14 +49,13 @@ o
 1. 导入插件：`import tailwindcss from '@tailwindcss/vite'`
 2. 在plugins列表中添加`tailwindcss()`
 
-# 导入Tailwind CSS
-打开`src`文件夹，新建`style.css`文件，添加内容：
-`@import "tailwindcss";`
+# 引入Tailwind CSS
+- 打开`src`文件夹，新建`style.css`文件，添加内容：`@import "tailwindcss";`
 
-# 使用Tailwind CSS
-编辑`index.html`文件，在`<head>`标签内添加内容：
-`<link href="/src/style.css" rel="stylesheet">`
-通过在`App.vue`文件中编辑class使用Tailwind CSS
+- 编辑`main.ts`文件，添加内容：`import './style.css'`
+或编辑`index.html`文件，添加内容：`<link href="/src/style.css" rel="stylesheet">`
+
+- 通过在`App.vue`文件中编辑class使用Tailwind CSS
 
 # vscode扩展
 - 扩展：Vue Official
