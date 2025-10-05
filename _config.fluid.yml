@@ -1058,6 +1058,12 @@ links:
       link: "https://www.sevenen.cn",
       avatar: "https://www.sevenen.cn/upload/112900318_p1.png"
     }
+    - {
+      title: "AcoFork Blog",
+      intro: "Protect What You Love.",
+      link: "https://2x.nz",
+      avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=5"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
