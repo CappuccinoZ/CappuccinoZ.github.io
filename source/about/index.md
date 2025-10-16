@@ -4,3 +4,4 @@ layout: about
 date: 2025-09-07 21:02:12
 ---
 分享编程和记录日常
+Bangumi: [我的时光机](https://bangumi.tv/user/1163330)
