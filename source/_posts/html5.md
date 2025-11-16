@@ -1,5 +1,5 @@
 ---
-title: HTML5笔记
+title: HTML5 笔记
 abbrlink: 54c944a1
 date: 2025-11-16 15:19:25
 tags: HTML5
@@ -12,6 +12,7 @@ excerpt: 学习HTML5的笔记
 ### 开发工具
 [TRAE AI编辑器](https://www.trae.cn/)
 [谷歌浏览器](https://www.google.cn/chrome/)
+编辑器扩展：Live Server, vscode-icons
 
 ### 快捷键
 开发者工具：浏览器右击"检查"或`F12`
@@ -74,7 +75,7 @@ excerpt: 学习HTML5的笔记
 语法：`<video src=""></video>`
 属性：src, controls, width, height, autoplay, loop, muted, poster
 
-想要自动播放，需要先静音
+> 想要自动播放，需要先静音
 
 兼容性写法：
 ```html

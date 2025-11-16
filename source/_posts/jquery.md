@@ -1,6 +1,7 @@
 ---
 title: jQuery 笔记
 tags: jQuery
+categories: 前端学习
 excerpt: 学习jQuery的笔记
 abbrlink: 56ea09c5
 date: 2025-10-17 00:48:26
