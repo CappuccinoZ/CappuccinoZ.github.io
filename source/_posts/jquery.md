@@ -8,7 +8,7 @@ date: 2025-10-17 00:48:26
 学习jQuery的一些笔记
 视频链接：[一天学会JQuery](https://www.bilibili.com/video/BV1eb411n7Lw/) 
 
-# jQuery介绍
+## jQuery介绍
 jQuery是一个快速、小巧且功能丰富的JavaScript库。它通过容易使用并兼容多种浏览器的API，使HTML文件遍历与操作、事件处理、动画效果以及Ajax等操作更简单。凭借其多功能性与可扩展性，jQuery改变了数百万人编写JavaScript代码的方式。
 
 我们可以进入[jquery.com](https://jquery.com/)下载jQuery文件，如`jquery-3.7.1.min.js`。
@@ -39,7 +39,7 @@ jQuery是一个快速、小巧且功能丰富的JavaScript库。它通过容易�
 </html>
 ```
 
-# jQuery准备
+## jQuery准备
 两种jQuery的准备方法，后面可以在花括号内编写代码，代码将会在文档加载后执行：
 ```js
 // 方法1
@@ -53,7 +53,7 @@ $(function(){
 })
 ```
 
-# 点击事件click
+## 点击事件click
 用`click`添加点击事件，例如点击id="a"的元素时弹出警告框：
 ```js
 $(document).ready(function(){
@@ -63,7 +63,7 @@ $(document).ready(function(){
 })
 ```
 
-# 选择器
+## 选择器
 在jQuery中可以使用CSS选择器来选取元素，`#`开头代表id，`.`开头代表class，用`:eq()`选择下标，例如：
 ```js
 //选取id="a"的元素
@@ -79,7 +79,7 @@ $("#a p:eq(1) span:eq(2)")
 ```
 弹出所选元素的内容：`alert($("#a").html())`
 
-# 悬停事件hover
+## 悬停事件hover
 用`mouseenter`添加鼠标进入事件，`mouseleave`添加鼠标移出事件。
 可以用`hover`添加悬停事件，传入2个函数，对应鼠标进入和移出，例如：
 ```js
@@ -93,7 +93,7 @@ $("#span1").hover(
 )
 ```
 
-# 提交事件submit
+## 提交事件submit
 检查表单提交的值：
 ```html
 <form id="f" action="https://www.baidu.com">
@@ -114,7 +114,7 @@ $("#f").submit(function(){
 })
 ```
 
-# 触发事件
+## 触发事件
 在准备方法之外定义函数，用不带参数的`submit`触发submit事件：
 ```js
 function c(){
@@ -123,7 +123,7 @@ function c(){
 }
 ```
 
-# 隐藏和显示的效果
+## 隐藏和显示的效果
 用`hide`隐藏，`show`显示：
 ```html
 <p id="a">abc</p>
@@ -142,7 +142,7 @@ $("#s").click(function(){
 })
 ```
 
-# 使用toggle显示和隐藏
+## 使用toggle显示和隐藏
 用`toggle`切换显示和隐藏：
 ```html
 <button id="t">toggle</button>
@@ -154,7 +154,7 @@ $("#t").click(function(){
 })
 ```
 
-# 给隐藏和显示增加执行时间和回调函数
+## 给隐藏和显示增加执行时间和回调函数
 给隐藏和显示增加执行时间和回调函数：
 ```js
 $("#h").click(function(){
@@ -168,7 +168,7 @@ $("#s").click(function(){
 })
 ```
 
-# 淡入淡出fadeIn和fadeOut
+## 淡入淡出fadeIn和fadeOut
 用`fadeIn`淡入，`fadeOut`淡出，`fadeToggle`淡入淡出切换：
 ```js
 $("#h").click(function(){
@@ -186,7 +186,7 @@ $("#t").click(function(){
 })
 ```
 
-# 滑入和滑出slideUp和slideDown
+## 滑入和滑出slideUp和slideDown
 用`slideDown`划入，`slideUp`划出，`slideToggle`划入划出切换：
 ```js
 $("#h").click(function(){
@@ -204,8 +204,8 @@ $("#t").click(function(){
 })
 ```
 
-# 动画效果animate
-## 移动
+## 动画效果animate
+### 移动
 用`left`和`top`属性设置移动后的位置：
 ```html
 <div style="background-color:#66ccff;width:200px;height:200px;position:relative;top:10px;right:10px" id="a">
@@ -222,7 +222,7 @@ function move(){
 }
 ```
 
-## 修改动画时间
+### 修改动画时间
 修改动画时间为4秒：
 ```js
 function move(){
@@ -233,7 +233,7 @@ function move(){
 }
 ```
 
-## 动画修改字体大小
+### 动画修改字体大小
 用`fontSize`属性修改字体大小，增加30px：
 ```js
 function move(){
@@ -245,7 +245,7 @@ function move(){
 }
 ```
 
-## 动画修改宽高
+### 动画修改宽高
 用`width`和`height`属性修改宽高，减少60px：
 ```js
 function move(){

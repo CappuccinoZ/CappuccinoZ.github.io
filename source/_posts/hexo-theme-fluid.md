@@ -5,16 +5,16 @@ date: 2025-09-28 14:28:17
 tags: hexo
 excerpt: 搭建 Hexo Fluid 主题博客
 ---
-# 搭建 Hexo 博客
-## 应用程序要求
+## 搭建 Hexo 博客
+### 应用程序要求
 - [Node.js](https://nodejs.org/zh-cn)（选比较新的版本）
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 
-## 安装 Hexo
+### 安装 Hexo
 使用 npm 安装 Hexo：`npm install -g hexo-cli`
 
-## 新建博客文件夹
+### 新建博客文件夹
 新建并打开一个文件夹，在文件夹地址栏输入`cmd`以在当前文件夹路径打开 CMD。执行下列命令新建博客文件夹（将`<folder>`替换成文件夹名，如果没有设置 folder，Hexo 默认在当前文件夹建站）：
 ```SH
 hexo init <folder>
@@ -22,7 +22,7 @@ cd <folder>
 npm install
 ```
 
-## 博客目录结构
+### 博客目录结构
 经过初始化，博客目录结构如下：
 ```txt
 .
@@ -38,7 +38,7 @@ npm install
 └── package-lock.json # 锁定依赖版本
 ```
 
-## 网站配置文件
+### 网站配置文件
 可以在`_config.yml`文件中修改配置，如：
 |设置|说明|
 |-|-|
@@ -52,7 +52,7 @@ npm install
 |permalink|文章的永久链接格式|
 |theme|网站主题名称|
 
-## 常用指令
+### 常用指令
 |指令|说明|
 |-|-|
 |`hexo new <title>`|新建文章（如果标题 title 带空格，标题需要加"双引号"）|
@@ -62,7 +62,7 @@ npm install
 |`hexo s`或`hexo server`|启动服务器进行预览|
 |`hexo clean`|清除缓存文件和已生成的静态文件|
 
-## 写作设置
+### 写作设置
 Hexo 支持用 Markdown 写作
 在 VS Code 中安装 Markdown 预览扩展：`Markdown All in One`和`Markdown Preview Enhanced`
 
@@ -76,21 +76,21 @@ Hexo 支持用 Markdown 写作
 |categories|分类|
 |excerpt|摘要|
 
-# 使用 Fluid 主题
-## 安装 Fluid
+## 使用 Fluid 主题
+### 安装 Fluid
 进入博客目录，通过 npm 安装 Fluid：`npm install --save hexo-theme-fluid
 `
 在博客目录下创建`_config.fluid.yml`，将主题的 [_config.yml](https://github.com/fluid-dev/hexo-theme-fluid/blob/master/_config.yml) 内容复制进去
 当需要更新主题时，执行命令：`npm update --save hexo-theme-fluid`
 
-## 指定主题
+### 指定主题
 修改博客目录下的`_config.yml`文件，设置`theme: fluid`
 
-## 创建关于页
+### 创建关于页
 通过hexo创建关于页：`hexo new page about`
 然后修改`/source/about/index.md`的 layout 属性和正文，在 Front-matter 中添加`layout: about`
 
-## 一些主题配置
+### 一些主题配置
 |设置|说明|
 |-|-|
 |font.font_size|主题字体大小|
@@ -106,7 +106,7 @@ Hexo 支持用 Markdown 写作
 图片存放路径：`\source\img`
 如果图片比较大，可以用一下图片压缩工具：[Imagine](https://github.com/meowtec/Imagine)
 
-# 部署博客
+## 部署博客
 接下来我们通过 GitHub Actions 来实现博客的自动化部署。第一次部署完成后，每次向代码仓库推送更改将自动触发部署
 
 - 登录 [GitHub](https://github.com/) 后，新建代码仓库`<username>.github.io`（将`<username>`替换成用户名）。如果访问慢，可以用 [Watt Toolkit](https://steampp.net/) 或 [Steamcommunity 302](https://www.dogfight360.com/blog/?s=Steamcommunity+302)
@@ -169,6 +169,6 @@ jobs:
 
 完成以上步骤后，可以前往`<username>.github.io`查看网页
 
-# 参考链接
+## 参考链接
 - [Hexo文档](https://hexo.io/zh-cn/docs/)
 - [Fluid文档](https://hexo.fluid-dev.com/docs/)
