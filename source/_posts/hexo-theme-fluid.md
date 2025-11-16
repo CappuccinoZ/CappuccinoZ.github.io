@@ -7,12 +7,14 @@ excerpt: 搭建 Hexo Fluid 主题博客
 ---
 ## 搭建 Hexo 博客
 ### 应用程序要求
-- [Node.js](https://nodejs.org/zh-cn)（选比较新的版本）
+- [Node.js](https://nodejs.org/zh-cn)（推荐最新LTS版本）
 - [Git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
 
 ### 安装 Hexo
-使用 npm 安装 Hexo：`npm install -g hexo-cli`
+使用 npm 安装 Hexo
+全局安装：`npm install -g hexo-cli`
+或局部安装，进入博客目录后运行：`npm install hexo`
 
 ### 新建博客文件夹
 新建并打开一个文件夹，在文件夹地址栏输入`cmd`以在当前文件夹路径打开 CMD。执行下列命令新建博客文件夹（将`<folder>`替换成文件夹名，如果没有设置 folder，Hexo 默认在当前文件夹建站）：
@@ -26,16 +28,16 @@ npm install
 经过初始化，博客目录结构如下：
 ```txt
 .
-├── .github # 工作流配置
-├── node_modules # 项目依赖模块
-├── scaffolds # 模版文件夹
-├── source # 资源文件夹
-|   └── _posts # 文章文件夹
-├── themes # 主题文件夹
-├── _config.landscape.yml # 默认主题配置文件
-├── _config.yml # 网站配置文件
-├── package.json # 项目配置和依赖管理
-└── package-lock.json # 锁定依赖版本
+├── .github
+├── node_modules
+├── scaffolds
+├── source
+|   └── _posts
+├── themes
+├── _config.landscape.yml
+├── _config.yml
+├── package.json
+└── package-lock.json
 ```
 
 ### 网站配置文件
@@ -53,6 +55,8 @@ npm install
 |theme|网站主题名称|
 
 ### 常用指令
+如果 hexo 是局部安装，需要在指令前加上`npx`，如 `npx hexo s`
+
 |指令|说明|
 |-|-|
 |`hexo new <title>`|新建文章（如果标题 title 带空格，标题需要加"双引号"）|

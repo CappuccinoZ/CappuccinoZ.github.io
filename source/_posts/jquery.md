@@ -1,16 +1,13 @@
 ---
 title: jQuery 笔记
 tags: jQuery
-excerpt: 学习jQuery的一些笔记
+excerpt: 学习jQuery的笔记
 abbrlink: 56ea09c5
 date: 2025-10-17 00:48:26
 ---
-学习jQuery的一些笔记
-视频链接：[一天学会JQuery](https://www.bilibili.com/video/BV1eb411n7Lw/) 
+学习视频：[一天学会JQuery](https://www.bilibili.com/video/BV1eb411n7Lw/) 
 
-## jQuery介绍
-jQuery是一个快速、小巧且功能丰富的JavaScript库。它通过容易使用并兼容多种浏览器的API，使HTML文件遍历与操作、事件处理、动画效果以及Ajax等操作更简单。凭借其多功能性与可扩展性，jQuery改变了数百万人编写JavaScript代码的方式。
-
+## jQuery下载
 我们可以进入[jquery.com](https://jquery.com/)下载jQuery文件，如`jquery-3.7.1.min.js`。
 在HTML文件中引入jQuery，放在自己写的js文件前面：
 ```html
