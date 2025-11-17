@@ -4,9 +4,9 @@ abbrlink: 54c944a1
 date: 2025-11-16 15:19:25
 tags: HTML5
 categories: 前端学习
-excerpt: 学习HTML5的笔记
+excerpt: 学习HTML5语义标签的笔记
 ---
-学习视频：[2025版pink老师最新AI+前端入门教程 (p0-p22)](https://www.bilibili.com/video/BV1MvaVzUEuz)
+学习视频：[2025版pink老师最新AI+前端入门教程 (P0-P22)](https://www.bilibili.com/video/BV1MvaVzUEuz)
 
 ## 准备
 ### 开发工具
@@ -16,6 +16,7 @@ excerpt: 学习HTML5的笔记
 
 ### 快捷键
 开发者工具：浏览器右击"检查"或`F12`
+选择元素检查：`Ctrl + Shift + C`
 新建文件：编辑器双击
 创建网页模板：英文感叹号`!`
 
