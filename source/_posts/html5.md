@@ -1,10 +1,10 @@
 ---
-title: HTML5 笔记
+title: HTML5 笔记（HTML5语义标签）
 abbrlink: 54c944a1
 date: 2025-11-16 15:19:25
 tags: HTML5
 categories: 前端学习
-excerpt: 学习HTML5语义标签的笔记
+excerpt: 视频和音频、网页结构标签等
 ---
 学习视频：[2025版pink老师最新AI+前端入门教程 (P0-P22)](https://www.bilibili.com/video/BV1MvaVzUEuz)
 
