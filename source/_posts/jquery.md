@@ -6,8 +6,6 @@ excerpt: 学习jQuery的笔记
 abbrlink: 56ea09c5
 date: 2025-10-17 00:48:26
 ---
-学习视频：[一天学会JQuery](https://www.bilibili.com/video/BV1eb411n7Lw/) 
-
 ## jQuery下载
 我们可以进入[jquery.com](https://jquery.com/)下载jQuery文件，如`jquery-3.7.1.min.js`。
 在HTML文件中引入jQuery，放在自己写的js文件前面：
@@ -255,3 +253,6 @@ function move(){
     }, 4000)
 }
 ```
+
+## 学习视频
+[一天学会JQuery](https://www.bilibili.com/video/BV1eb411n7Lw/) 

@@ -1,13 +1,11 @@
 ---
 title: HTML5 笔记（HTML5语义标签）
-abbrlink: 54c944a1
-date: 2025-11-16 15:19:25
 tags: HTML5
 categories: 前端学习
 excerpt: 视频和音频、网页结构标签等
+abbrlink: 54c944a1
+date: 2025-11-16 15:19:25
 ---
-学习视频：[2025版pink老师最新AI+前端入门教程 (P0-P22)](https://www.bilibili.com/video/BV1MvaVzUEuz)
-
 ## 准备
 ### 开发工具
 [TRAE AI编辑器](https://www.trae.cn/)
@@ -180,3 +178,6 @@ excerpt: 视频和音频、网页结构标签等
 空格：`&nbsp;`
 大于号：`&gt;`
 小于号：`&lt;`
+
+## 学习视频
+[2025版pink老师最新AI+前端入门教程](https://www.bilibili.com/video/BV1MvaVzUEuz)

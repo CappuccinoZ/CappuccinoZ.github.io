@@ -6,9 +6,6 @@ excerpt: CSS选择器、CSS优先级、盒子模型等
 abbrlink: bae36060
 date: 2025-11-20 22:56:01
 ---
-
-学习视频：[2025版pink老师最新AI+前端入门教程 (P23-P54)](https://www.bilibili.com/video/BV1MvaVzUEuz)
-
 ## CSS分类
 CSS：层叠样式表 显示外观
 层叠性 就近原则
@@ -253,3 +250,6 @@ text-overflow: ellipsis;
 ## 精灵图
 优势：减少HTTP请求、提升性能、统一管理
 背景图片 背景定位(background-position)移动位置
+
+## 学习视频
+[2025版pink老师最新AI+前端入门教程](https://www.bilibili.com/video/BV1MvaVzUEuz)

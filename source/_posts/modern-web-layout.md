@@ -6,9 +6,6 @@ excerpt: 弹性布局、网格布局、定位布局与多列布局等
 abbrlink: c9e3e372
 date: 2025-11-29 14:18:37
 ---
-
-学习视频：[2025版pink老师最新AI+前端入门教程 (P55-P90)](https://www.bilibili.com/video/BV1MvaVzUEuz)
-
 ## display模式转换
 block, inline, inline-block
 
@@ -137,3 +134,6 @@ pointer, not-allowed
 
 CSS属性书写顺序建议：
 布局、盒模型、视觉、交互、其他
+
+## 学习视频
+[2025版pink老师最新AI+前端入门教程](https://www.bilibili.com/video/BV1MvaVzUEuz)

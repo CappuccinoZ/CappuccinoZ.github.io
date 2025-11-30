@@ -1,9 +1,9 @@
 ---
 title: 手把手教你搭建 Hexo Fluid 主题博客
-abbrlink: d94eae67
-date: 2025-09-28 14:28:17
 tags: hexo
 excerpt: 搭建 Hexo Fluid 主题博客
+abbrlink: d94eae67
+date: 2025-09-28 14:28:17
 ---
 ## 搭建 Hexo 博客
 ### 应用程序要求
@@ -42,43 +42,43 @@ npm install
 
 ### 网站配置文件
 可以在`_config.yml`文件中修改配置，如：
-|设置|说明|
-|-|-|
-|title|网站标题|
-|subtitle|网站副标题|
-|description|网站描述|
-|keywords|网站的关键词|
-|author|作者名字|
-|language|网站使用的语言，简体中文的代码是`zh-CN`|
-|url|网址|
-|permalink|文章的永久链接格式|
-|theme|网站主题名称|
+| 设置        | 说明                                    |
+| ----------- | --------------------------------------- |
+| title       | 网站标题                                |
+| subtitle    | 网站副标题                              |
+| description | 网站描述                                |
+| keywords    | 网站的关键词                            |
+| author      | 作者名字                                |
+| language    | 网站使用的语言，简体中文的代码是`zh-CN` |
+| url         | 网址                                    |
+| permalink   | 文章的永久链接格式                      |
+| theme       | 网站主题名称                            |
 
 ### 常用指令
 如果 hexo 是局部安装，需要在指令前加上`npx`，如 `npx hexo s`
 
-|指令|说明|
-|-|-|
-|`hexo new <title>`|新建文章（如果标题 title 带空格，标题需要加"双引号"）|
-|`hexo new draft <title>`|新建草稿|
-|`hexo publish draft <title>`|发布草稿|
-|`hexo g`或`hexo generate`|生成静态文件|
-|`hexo s`或`hexo server`|启动服务器进行预览|
-|`hexo clean`|清除缓存文件和已生成的静态文件|
+| 指令                         | 说明                                                  |
+| ---------------------------- | ----------------------------------------------------- |
+| `hexo new <title>`           | 新建文章（如果标题 title 带空格，标题需要加"双引号"） |
+| `hexo new draft <title>`     | 新建草稿                                              |
+| `hexo publish draft <title>` | 发布草稿                                              |
+| `hexo g`或`hexo generate`    | 生成静态文件                                          |
+| `hexo s`或`hexo server`      | 启动服务器进行预览                                    |
+| `hexo clean`                 | 清除缓存文件和已生成的静态文件                        |
 
 ### 写作设置
 Hexo 支持用 Markdown 写作
 在 VS Code 中安装 Markdown 预览扩展：`Markdown All in One`和`Markdown Preview Enhanced`
 
 通过修改`.md`文件开头的 Front-matter，配置写作设置：
-|设置|说明|
-|-|-|
-|title|标题|
-|date|建立日期|
-|updated|更新日期|
-|tags|标签|
-|categories|分类|
-|excerpt|摘要|
+| 设置       | 说明     |
+| ---------- | -------- |
+| title      | 标题     |
+| date       | 建立日期 |
+| updated    | 更新日期 |
+| tags       | 标签     |
+| categories | 分类     |
+| excerpt    | 摘要     |
 
 ## 使用 Fluid 主题
 ### 安装 Fluid
@@ -95,17 +95,17 @@ Hexo 支持用 Markdown 写作
 然后修改`/source/about/index.md`的 layout 属性和正文，在 Front-matter 中添加`layout: about`
 
 ### 一些主题配置
-|设置|说明|
-|-|-|
-|font.font_size|主题字体大小|
-|index.slogan.text|首页副标题|
-|navbar.blog_title|导航栏标题|
-|narbar.menu|导航栏菜单|
-|footer.content|页脚|
-|about|关于页|
-|links.items|友链|
-|post.copyright|版权声明|
-|index.banner_mask_alpha|头图黑色蒙版|
+| 设置                    | 说明         |
+| ----------------------- | ------------ |
+| font.font_size          | 主题字体大小 |
+| index.slogan.text       | 首页副标题   |
+| navbar.blog_title       | 导航栏标题   |
+| narbar.menu             | 导航栏菜单   |
+| footer.content          | 页脚         |
+| about                   | 关于页       |
+| links.items             | 友链         |
+| post.copyright          | 版权声明     |
+| index.banner_mask_alpha | 头图黑色蒙版 |
 
 图片存放路径：`\source\img`
 如果图片比较大，可以用一下图片压缩工具：[Imagine](https://github.com/meowtec/Imagine)
