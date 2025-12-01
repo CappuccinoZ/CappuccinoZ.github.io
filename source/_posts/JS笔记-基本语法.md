@@ -7,7 +7,7 @@ abbrlink: b70d58d
 date: 2025-11-30 17:33:36
 ---
 ## JavaScript简介
-### Whatzit
+### 概念
 一种运行在客户端（浏览器）的编程语言，实现人机交互效果
 
 组成：ECMAScript、Web APIs（DOM、BOM）
@@ -15,7 +15,7 @@ date: 2025-11-30 17:33:36
 - DOM：操作文档
 - BOM：操作浏览器
 
-### Howdunit
+### 使用方法
 书写位置：
 - 内部 `<script>`
 - 外部 `<script src=""></script>`
@@ -29,24 +29,24 @@ date: 2025-11-30 17:33:36
 - 输入 prompt()
 - 输出 document.write(), alert(), console.log()
 
-### Watchit
+### 注意
 顺序加载，书写位置尽量写到`</body>`前面
 外部js标签中间不要写代码
 
-### Wheredunit
+### 使用场景
 网页特效、表单验证、数据交互、服务端编程
 
 
 ## 变量
-### Whatzit
+### 概念
 计算机中用来**存储数据**的**容器**
 本质：程序在内存中申请的一块用来存放数据的小空间
 
-### Howdunit
+### 使用方法
 声明、赋值、更新
 `let age = 18`
 
-### Watchit
+### 注意
 变量命名规范：
 - 起名要有意义
 - 小驼峰命名法，例：`userName`
@@ -64,24 +64,24 @@ var声明：
 下标从0开始
 
 ## 常量
-### Whydunit
+### 背景
 某个变量永远不会改变
 
-### Whatzit
+### 概念
 使用const声明的变量
 
-### Howdunit
+### 使用方法
 `const G = 9.8`
 
-### Watchit
+### 注意
 不允许更改值，声明时必须赋值
 
 ## 数据类型
-### Whydunit
+### 背景
 - 更加充分和高效地利用内存
 - 更加方便程序员使用数据
 
-### Whatzit
+### 概念
 基本数据类型：
 - number 数字型
 - string 字符串型
@@ -91,7 +91,7 @@ var声明：
 
 引用数据类型：object 对象
 
-### Howdunit
+### 使用方法
 ```js
 let age = 18
 // console.log('我今年' + age + '岁了')
@@ -112,7 +112,7 @@ NaN：计算错误 粘性
 转换成数字：Number(), parseInt(), parseFloat()
 转换成字符串：String(), .toString()
 
-### Watchit
+### 注意
 引号嵌套：外双内单，或者外单内双
 
 null和undefined区别：
