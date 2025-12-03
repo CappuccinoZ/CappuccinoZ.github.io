@@ -162,13 +162,21 @@ for (let i = 0; i < arr.length; i++) {
 删除：pop删除最后一个，shift删除第一个，**splice**删除指定元素`splice(起始位置, 删除几个)`
 
 排序：
-1. 升序排序 `arr.sort()`
+sort()默认按字母升序，对数字排序要传入比较函数：
+1. 升序排序
+```js
+arr.sort(function(a, b) {
+  return a-b
+})
+```
 2. 降序排序
 ```js
 arr.sort(function(a, b) {
   return b - a
 })
 ```
+
+
 
 ## 函数
 ### 使用背景
