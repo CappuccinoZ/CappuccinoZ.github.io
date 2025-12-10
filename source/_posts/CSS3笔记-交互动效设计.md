@@ -61,6 +61,3 @@ animation属性完整写法：`animation: 动画名称 动画时长 速度曲线
 背景模糊效果：`backdrop-filter: blur(10px);`
 倒影效果：`box-reflect: 倒影方向 倒影距离 倒影图像;`，前面需要加`-webkit-`
 否定选择器 `:not()`
-
-## 学习视频
-[2025版pink老师最新AI+前端入门教程](https://www.bilibili.com/video/BV1MvaVzUEuz)
