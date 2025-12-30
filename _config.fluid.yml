@@ -1064,6 +1064,12 @@ links:
       link: "https://2x.nz",
       avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=5"
     }
+    - {
+      title: "虹希のBlog",
+      intro: "热爱编程与分享的博主。",
+      link: "https://blog.hongxi.moe",
+      avatar: "https://avatars.githubusercontent.com/u/177866244?v=4"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
