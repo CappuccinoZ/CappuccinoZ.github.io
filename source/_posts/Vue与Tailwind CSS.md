@@ -1,9 +1,9 @@
 ---
-title: Vue + Tailwind CSS
+title: Vue 与 Tailwind CSS
 tags:
   - Vue
   - Tailwind CSS
-excerpt: 创建Vue和Tailwind CSS项目
+excerpt: 创建Vue与Tailwind CSS项目
 abbrlink: 6990c04a
 date: 2025-09-20 13:17:18
 ---
