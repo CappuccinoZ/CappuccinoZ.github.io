@@ -1079,7 +1079,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: "<hr><p>添加完我的友链后请在下方留言申请加入我的友链，参考如下格式：</p><ul><li>title: CappuccinoZ's Blog,</li><li>intro: 良机一直就在你眼前,</li><li>link: https://kitakita.top,</li><li>avatar: https://kitakita.top/img/avatar2.png</li></ul>"
+    content: "<hr><p>添加完我的友链后请在下方留言申请加入我的友链，参考如下格式：</p><p>title: &quot;CappuccinoZ's Blog&quot;,<br>intro: &quot;良机一直就在你眼前&quot;,<br>link: &quot;https://kitakita.top&quot;,<br>avatar: &quot;https://kitakita.top/img/avatar2.png&quot;</p>"
 
   # 评论插件
   # Comment plugin
