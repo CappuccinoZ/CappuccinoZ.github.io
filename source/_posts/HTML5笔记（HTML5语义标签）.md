@@ -17,13 +17,25 @@ date: 2025-11-16 15:19:25
 选择元素检查：`Ctrl + Shift + C`
 新建文件：编辑器双击
 创建网页模板：英文感叹号`!`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+```
 
-## 网页模版中的标签
 头部元素：`<head>`，包含文档的元数据，字符集、移动端页面适配、页面的标题等
-页面上的内容：`<body>`，包含文本、图片、视频、音频等
+页面内容：`<body>`，包含文本、图片、视频、音频等
 
 ## 标题与段落标签
-标题标签：h+数字，如`<h3>`
+标题标签：从一级标题`<h1>`到六级标题`<h6>`，建议在三级以内
 段落标签：`<p>`
 
 ## 有语义强调与重要性标签
