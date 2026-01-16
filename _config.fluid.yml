@@ -1070,6 +1070,12 @@ links:
       link: "https://blog.hongxi.moe",
       avatar: "https://avatars.githubusercontent.com/u/177866244?v=4"
     }
+    - {
+      title: "Yourlai Blog",
+      intro: "无bug是理想，调设备是日常",
+      link: "https://yourlai.icu",
+      avatar: "https://cdn.cdn.yourlai.icu/img/logo/ava.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
