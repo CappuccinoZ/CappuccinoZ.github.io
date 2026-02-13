@@ -1,5 +1,5 @@
 ---
-title: Vue 与 Tailwind CSS
+title: Vue与Tailwind CSS
 tags:
   - Vue
   - Tailwind CSS
@@ -12,7 +12,6 @@ date: 2025-09-20 13:17:18
 官网：https://nodejs.org/zh-cn/download
 - VS Code
 官网：https://code.visualstudio.com/
-国内下载vscode速度慢问题解决：https://zhuanlan.zhihu.com/p/112215618
 
 ## npm配置
 ```sh
