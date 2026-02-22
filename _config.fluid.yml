@@ -1076,6 +1076,12 @@ links:
       link: "https://yourlai.icu",
       avatar: "https://cdn.cdn.yourlai.icu/img/logo/ava.png"
     }
+    - {
+      title: "fishcpy",
+      intro: "人生漫长，不妨多解锁些鲜活体验",
+      link: "https://blog.fis.ink",
+      avatar: "https://file.fis.ink/img/fishcpy/logo.png"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
