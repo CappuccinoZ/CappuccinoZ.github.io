@@ -373,7 +373,9 @@ navbar:
         icon: "iconfont icon-exp-fill",
         submenu: [
           { key: "Kita起始页", link: "https://start.kitakita.top/" },
-          { key: "Kitakita~", link: "https://kitakita.top/kitakita_website/" },
+          { key: "Web笔记", link: "https://note.kitakita.top/" },
+          { key: "Yachiyo", link: "https://github.com/Tsukimi-Yachiyo/All" },
+          { key: "多项式方程", link: "https://kitakita.top/equation-solver/" },
         ]
       }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
