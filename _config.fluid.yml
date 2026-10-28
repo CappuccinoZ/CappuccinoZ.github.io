@@ -1090,6 +1090,12 @@ links:
       link: "https://xnmoe.com",
       avatar: "https://www.xnmoe.com/assets/images/pfp.png"
     }
+    - {
+      title: "白芷Angelica",
+      intro: "白芷的个人摄影日志",
+      link: "http://baizhi-angelica.github.io/",
+      avatar: "https://q2.qlogo.cn/headimg_dl?dst_uin=961823281&spec=5"
+    }
 
   # 当成员头像加载失败时，替换为指定图片
   # When the member avatar fails to load, replace the specified image
